@@ -14,3 +14,4 @@ Goals: CraftNCraft 1.0 Dev #2:
 	- Updating some mods
 	- Continuing the Verifying stuff for Mac OS X (Never knew when it might be done)
 	- Maybe adding some more mods (I said maybe)
+	- Moving the Modpack to GitHub

@@ -1,0 +1,16 @@
+This is the Changelog of the CraftNCraft Modpack.
+
+CraftNCraft 1.0 Dev #1:
+	
+	- Added some mods
+	- Made the Installer for Mac OS X
+	- Got Forge Mod Loader packed with Installer
+	- Got LiteLoader packed with Installer
+
+Goals: CraftNCraft 1.0 Dev #2:
+
+	- Making the Installer for Ubuntu (Might be very long)
+	- Fixing the error "java.lang.IllegalArgumentException: Version must be a partial" which made the launcher stuck at Loading Versions... :(
+	- Updating some mods
+	- Continuing the Verifying stuff for Mac OS X (Never knew when it might be done)
+	- Maybe adding some more mods (I said maybe)

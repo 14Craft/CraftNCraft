@@ -1,0 +1,466 @@
+#!/bin/bash
+cd "$(dirname "$0")"
+echo Verifying Forge Mods.....
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/AgriculturalRevolution.jar ]
+	then
+		echo Found "AgriculturalRevolution.jar" 
+	else
+		echo Can’t find "AgriculturalRevolution.jar";
+		echo Reinstalling "AgriculturalRevolution.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/AgriculturalRevolution.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/AgriculturalRevolution.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "AgriculturalRevolution.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/AgriculturalRevolution.jar ]
+			then
+				echo Found "AgriculturalRevolution.jar" 
+			else
+				echo Can’t find "AgriculturalRevolution.jar";
+				echo Giving up on "AgriculturalRevolution.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/ArmorStatusHUD.jar ]
+	then
+		echo Found "ArmorStatusHUD.jar" 
+	else
+		echo Can’t find "ArmorStatusHUD.jar";
+		echo Reinstalling "ArmorStatusHUD.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/ArmorStatusHUD.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/ArmorStatusHUD.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "ArmorStatusHUD.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/ArmorStatusHUD.jar ]
+			then
+				echo Found "ArmorStatusHUD.jar" 
+			else
+				echo Can’t find "ArmorStatusHUD.jar";
+				echo Giving up on "ArmorStatusHUD.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/AromaCore.jar ]
+	then
+		echo Found "AromaCore.jar" 
+	else
+		echo Can’t find "AromaCore.jar";
+		echo Reinstalling "AromaCore.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/AromaCore.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/AromaCore.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "AromaCore.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/AromaCore.jar ]
+			then
+				echo Found "AromaCore.jar" 
+			else
+				echo Can’t find "AromaCore.jar";
+				echo Giving up on "AromaCore.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/BamsGrave.jar ]
+	then
+		echo Found "BamsGrave.jar" 
+	else
+		echo Can’t find "BamsGrave.jar";
+		echo Reinstalling "BamsGrave.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/BamsGrave.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/BamsGrave.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "BamsGrave.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/BamsGrave.jar ]
+			then
+				echo Found "BamsGrave.jar" 
+			else
+				echo Can’t find "BamsGrave.jar";
+				echo Giving up on "BamsGrave.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/Beacon.jar ]
+	then
+		echo Found "Beacon.jar" 
+	else
+		echo Can’t find "Beacon.jar";
+		echo Reinstalling "Beacon.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/Beacon.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/Beacon.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "Beacon.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/Beacon.jar ]
+			then
+				echo Found "Beacon.jar" 
+			else
+				echo Can’t find "Beacon.jar";
+				echo Giving up on "Beacon.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/BetterChests.jar ]
+	then
+		echo Found "BetterChests.jar" 
+	else
+		echo Can’t find "BetterChests.jar";
+		echo Reinstalling "BetterChests.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/BetterChests.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/BetterChests.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "BetterChests.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/BetterChests.jar ]
+			then
+				echo Found "BetterChests.jar" 
+			else
+				echo Can’t find "BetterChests.jar";
+				echo Giving up on "BetterChests.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/BiomesOPlenty.jar ]
+	then
+		echo Found "BiomesOPlenty.jar" 
+	else
+		echo Can’t find "BiomesOPlenty.jar";
+		echo Reinstalling "BiomesOPlenty.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/BiomesOPlenty.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/BiomesOPlenty.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "BiomesOPlenty.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/BiomesOPlenty.jar ]
+			then
+				echo Found "BiomesOPlenty.jar" 
+			else
+				echo Can’t find "BiomesOPlenty.jar";
+				echo Giving up on "BiomesOPlenty.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/BowInfinityFix.jar ]
+	then
+		echo Found "BowInfinityFix.jar" 
+	else
+		echo Can’t find "BowInfinityFix.jar";
+		echo Reinstalling "BowInfinityFix.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/BowInfinityFix.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/BowInfinityFix.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "BowInfinityFix.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/BowInfinityFix.jar ]
+			then
+				echo Found "BowInfinityFix.jar" 
+			else
+				echo Can’t find "BowInfinityFix.jar";
+				echo Giving up on "BowInfinityFix.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/bspkrsCore.jar ]
+	then
+		echo Found "bspkrsCore.jar" 
+	else
+		echo Can’t find "bspkrsCore.jar";
+		echo Reinstalling "bspkrsCore.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/bspkrsCore.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/bspkrsCore.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "bspkrsCore.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/bspkrsCore.jar ]
+			then
+				echo Found "bspkrsCore.jar" 
+			else
+				echo Can’t find "bspkrsCore.jar";
+				echo Giving up on "bspkrsCore.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/ChestTransporter.jar ]
+	then
+		echo Found "ChestTransporter.jar" 
+	else
+		echo Can’t find "ChestTransporter.jar";
+		echo Reinstalling "ChestTransporter.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/ChestTransporter.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/ChestTransporter.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "ChestTransporter.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/ChestTransporter.jar ]
+			then
+				echo Found "ChestTransporter.jar" 
+			else
+				echo Can’t find "ChestTransporter.jar";
+				echo Giving up on "ChestTransporter.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/CodeChickenCore.jar ]
+	then
+		echo Found "CodeChickenCore.jar" 
+	else
+		echo Can’t find "CodeChickenCore.jar";
+		echo Reinstalling "CodeChickenCore.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/CodeChickenCore.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/CodeChickenCore.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "CodeChickenCore.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/CodeChickenCore.jar ]
+			then
+				echo Found "CodeChickenCore.jar" 
+			else
+				echo Can’t find "CodeChickenCore.jar";
+				echo Giving up on "CodeChickenCore.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/Craft++.jar ]
+	then
+		echo Found "Craft++.jar" 
+	else
+		echo Can’t find "Craft++.jar";
+		echo Reinstalling "Craft++.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/Craft++.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/Craft++.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "Craft++.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/Craft++.jar ]
+			then
+				echo Found "Craft++.jar" 
+			else
+				echo Can’t find "Craft++.jar";
+				echo Giving up on "Craft++.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/CrayfishFurnitures.jar ]
+	then
+		echo Found "CrayfishFurnitures.jar" 
+	else
+		echo Can’t find "CrayfishFurnitures.jar";
+		echo Reinstalling "CrayfishFurnitures.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/CrayfishFurnitures.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/CrayfishFurnitures.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "CrayfishFurnitures.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/CrayfishFurnitures.jar ]
+			then
+				echo Found "CrayfishFurnitures.jar" 
+			else
+				echo Can’t find "CrayfishFurnitures.jar";
+				echo Giving up on "CrayfishFurnitures.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/CustomNPCs.jar ]
+	then
+		echo Found "CustomNPCs.jar" 
+	else
+		echo Can’t find "CustomNPCs.jar";
+		echo Reinstalling "CustomNPCs.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/CustomNPCs.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/CustomNPCs.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "CustomNPCs.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/CustomNPCs.jar ]
+			then
+				echo Found "CustomNPCs.jar" 
+			else
+				echo Can’t find "CustomNPCs.jar";
+				echo Giving up on "CustomNPCs.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/DamageIndicators.jar ]
+	then
+		echo Found "DamageIndicators.jar" 
+	else
+		echo Can’t find "DamageIndicators.jar";
+		echo Reinstalling "DamageIndicators.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/DamageIndicators.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/DamageIndicators.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "DamageIndicators.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/DamageIndicators.jar ]
+			then
+				echo Found "DamageIndicators.jar" 
+			else
+				echo Can’t find "DamageIndicators.jar";
+				echo Giving up on "DamageIndicators.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/DessertCraft.jar ]
+	then
+		echo Found "DessertCraft.jar" 
+	else
+		echo Can’t find "DessertCraft.jar";
+		echo Reinstalling "DessertCraft.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/DessertCraft.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/DessertCraft.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "DessertCraft.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/DessertCraft.jar ]
+			then
+				echo Found "DessertCraft.jar" 
+			else
+				echo Can’t find "DessertCraft.jar";
+				echo Giving up on "DessertCraft.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/DyLVersionCheck.jar ]
+	then
+		echo Found "DyLVersionCheck.jar" 
+	else
+		echo Can’t find "DyLVersionCheck.jar";
+		echo Reinstalling "DyLVersionCheck.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/DyLVersionCheck.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/DyLVersionCheck.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "DyLVersionCheck.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/DyLVersionCheck.jar ]
+			then
+				echo Found "DyLVersionCheck.jar" 
+			else
+				echo Can’t find "DyLVersionCheck.jar";
+				echo Giving up on "DyLVersionCheck.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/EnchantingPlus.jar ]
+	then
+		echo Found "EnchantingPlus.jar" 
+	else
+		echo Can’t find "EnchantingPlus.jar";
+		echo Reinstalling "EnchantingPlus.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/EnchantingPlus.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/EnchantingPlus.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "EnchantingPlus.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/EnchantingPlus.jar ]
+			then
+				echo Found "EnchantingPlus.jar" 
+			else
+				echo Can’t find "EnchantingPlus.jar";
+				echo Giving up on "EnchantingPlus.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/FluxDucts.jar ]
+	then
+		echo Found "FluxDucts.jar" 
+	else
+		echo Can’t find "FluxDucts.jar";
+		echo Reinstalling "FluxDucts.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/FluxDucts.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/FluxDucts.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "FluxDucts.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/FluxDucts.jar ]
+			then
+				echo Found "FluxDucts.jar" 
+			else
+				echo Can’t find "FluxDucts.jar";
+				echo Giving up on "FluxDucts.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/Gems+.jar ]
+	then
+		echo Found "Gems+.jar" 
+	else
+		echo Can’t find "Gems+.jar";
+		echo Reinstalling "Gems+.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/Gems+.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/Gems+.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "Gems+.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/Gems+.jar ]
+			then
+				echo Found "Gems+.jar" 
+			else
+				echo Can’t find "Gems+.jar";
+				echo Giving up on "Gems+.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/LuckyBlocks.jar ]
+	then
+		echo Found "LuckyBlocks.jar" 
+	else
+		echo Can’t find "LuckyBlocks.jar";
+		echo Reinstalling "LuckyBlocks.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/LuckyBlocks.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/LuckyBlocks.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "LuckyBlocks.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/LuckyBlocks.jar ]
+			then
+				echo Found "LuckyBlocks.jar" 
+			else
+				echo Can’t find "LuckyBlocks.jar";
+				echo Giving up on "LuckyBlocks.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/MoreDimensions.jar ]
+	then
+		echo Found "MoreDimensions.jar" 
+	else
+		echo Can’t find "MoreDimensions.jar";
+		echo Reinstalling "MoreDimensions.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/MoreDimensions.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/MoreDimensions.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "MoreDimensions.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/MoreDimensions.jar ]
+			then
+				echo Found "MoreDimensions.jar" 
+			else
+				echo Can’t find "MoreDimensions.jar";
+				echo Giving up on "MoreDimensions.jar"
+		fi
+	
+fi
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/MoreEnchantments.jar ]
+	then
+		echo Found "MoreEnchantments.jar" 
+	else
+		echo Can’t find "MoreEnchantments.jar";
+		echo Reinstalling "MoreEnchantments.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/MoreEnchantments.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/MoreEnchantments.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "MoreEnchantments.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/MoreEnchantments.jar ]
+			then
+				echo Found "MoreEnchantments.jar" 
+			else
+				echo Can’t find "MoreEnchantments.jar";
+				echo Giving up on "MoreEnchantments.jar"
+		fi
+	
+fi
+echo Finished Verifying CraftNCraft ModPack
+echo Fix any mods which failed by downloading it and renaming it to the errored one
+exit

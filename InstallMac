@@ -15,10 +15,5 @@ echo Liteloader Mods Installed
 echo Installing Forge.....
 mkdir ~/Library/Application\ Support/minecraft/versions/Forge
 cp ./Modpack\ Resources/Forge/ClientJSON.json ~/Library/Application\ Support/minecraft/versions/Forge/Forge.json
-echo Installing LiteLoader.....
-mkdir ~/Library/Application\ Support/minecraft/versions/CraftNCraft-1.8
-cp ./Modpack\ Resources/LiteLoader/ClientJSON.json ~/Library/Application\ Support/minecraft/versions/CraftNCraft-1.8/CraftNCraft-1.8.json
-echo Verifying Modpack.....
-bash ./Install\ Resources/Verifying/VerifyMac
 echo Everything Done!!!
 exit

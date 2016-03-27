@@ -1,6 +1,26 @@
 #!/bin/bash
 cd "$(dirname "$0")"
 echo Verifying Forge Mods.....
+if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/Adequacy.jar ]
+	then
+		echo Found "Adequacy.jar" 
+	else
+		echo Can’t find "Adequacy.jar";
+		echo Reinstalling "Adequacy.jar";
+		cd ..
+		cd ..
+		cp ./Modpack\ Resources/ForgeMods/Adequacy.jar ~/Library/Application\ Support/minecraft/CraftNCraft/mods/Adequacy.jar;
+		cd ./Install\ Resources/Verifying
+		echo Reverifying "Adequacy.jar";
+		if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/Adequacy.jar ]
+			then
+				echo Found "Adequacy.jar" 
+			else
+				echo Can’t find "Adequacy.jar";
+				echo Giving up on "Adequacy.jar"
+		fi
+	
+fi
 if [ -a ~/Library/Application\ Support/minecraft/CraftNCraft/mods/AgriculturalRevolution.jar ]
 	then
 		echo Found "AgriculturalRevolution.jar" 
